@@ -1,1 +1,1 @@
-# Hostel
+# TaTU Hostel Management System
