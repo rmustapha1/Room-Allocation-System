@@ -1,0 +1,351 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(web_home/images/img5.jpeg) no-repeat 0px 0px;
+    min-height: 100vh;
+    background-size: cover;
+    font-family: 'Rajdhani', sans-serif;
+}
+section {
+    background: #ffffffc9;
+    max-width: 820px;
+    margin: 0 auto;
+    padding: 3em;
+    border-radius: none;
+    box-sizing: border-box;
+}
+
+.contact .mail_grid_w3l input[type="text"], .contact .mail_grid_w3l input[type="date"], .contact .mail_grid_w3l input[type="email"], .contact .mail_grid_w3l input[type="number"], .contact .mail_grid_w3l input[type="password"], .contact .mail_grid_w3l select {
+   outline: none;
+    padding: 15px;
+    font-size: 15px;
+    color: #777;
+    background: none;
+    width: 100%;
+    border: 1px solid #777;
+    letter-spacing: 3px;
+    border-radius: 5px;
+     text-transform: capitalize;
+}
+.contact-fields-w3ls {
+    margin-bottom: 1em;}
+
+    .wh1 {
+    margin: 0;
+    color: #ffffff;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding: 50px 0;
+}
+.contact h2.heading{
+      font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+    color: #fc3955;
+}
+h1 {
+    margin: 0;
+    color: #ffffff;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding: 50px 0;
+}
+
+
+h2 {
+    margin: 0;
+    color: #fc3955;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 2px;
+    padding-bottom: 30px;
+}
+h3{
+    color: #fc3955;
+      font-weight: 300;
+      text-transform: uppercase;
+      font-size: 22px;
+      margin-top: 10px;
+}
+
+p.w3l-register-p {
+    color: #333;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 2em;
+}
+
+.w3l-login-form {
+    background: #ffffffc9;
+    max-width: 620px;
+    margin: 0 auto;
+    padding: 3em;
+    border-radius: none;
+    box-sizing: border-box;
+}
+
+.group {
+    outline: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    border: 1px solid #777;
+    padding: 15px 5px;
+    background-color: none;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.group i {
+    color: #fc3955;
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+.w3l-form-group {
+    margin: 10px 0;
+}
+
+.w3l-form-group label {
+    display: block;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #777;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    font-style: bold;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="password"] {
+    width: 100%;
+    border: none;
+    box-sizing: border-box;
+    background: transparent;
+    color: #000;
+}
+input[type="date"]
+{
+  width: 100%;
+    border: none;
+    box-sizing: border-box;
+    background: transparent;
+    color: #000;  
+}
+select
+{
+    width: 100%;
+    border: none;
+    box-sizing: border-box;
+    background: transparent;
+    color: #000;
+}
+select:focus,
+input[type="text"]:focus,
+input[type="date"]:focus,
+input[type="number"]:focus,
+input[type="password"]:focus {
+    outline: none;
+}
+select:hover,
+input[type="text"]:hover,
+input[type="date"]:hover,
+input[type="number"]:hover,
+input[type="password"]:hover {
+    cursor: pointer;
+}
+
+button {
+    outline: none;
+    padding: 13px 50px;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 600;
+    background: #fc3955;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+  margin-left: 35%;
+  font-family: 'Rajdhani', sans-serif;
+}
+button:hover {
+    background-color: #00BCD4;
+    transition-duration: 5s;
+}
+
+.forgot {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+a {
+    color: #eee;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.forgot p {
+    color: #ffffff;
+    text-align: center;
+    margin: 0px;
+	font-size: 13px;
+}
+
+.register {
+    color: #00BCD4;
+    text-decoration: none;
+}
+
+/*--footer--*/
+
+p.copyright-agileinfo {
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: #fff;
+    font-weight: 300;
+}
+
+footer p a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+}
+.foo p a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+}
+
+footer p a:hover {
+    color: #fff;
+    text-decoration: none;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    transition: 0.5s all;
+}
+
+.foo {
+    padding: 4em 0;
+    text-align: center;
+}
+/*--//footer--*/
+
+/*-- /responsive design --*/
+
+@media(max-width:768px) {
+    h1 {
+        font-size: 47px;
+    }
+    .wh1 {
+        font-size: 47px;
+    }
+}
+
+@media(max-width:667px) {
+    h1 {
+        font-size: 45px;
+    }
+    .wh1 {
+        font-size: 45px;
+    }
+
+}
+
+@media(max-width:640px) {
+    p.copyright-agileinfo {
+        letter-spacing: 1px;
+    }
+    h1 {
+        font-size: 43px;
+    }
+    .wh1 {
+        font-size: 43px;
+    }
+}
+
+@media(max-width:568px) {
+    h1 {
+        font-size: 40px;
+    }
+    .wh1 {
+        font-size: 40px;
+    }
+    p.copyright-agileinfo {
+        font-size: 14px;
+    }
+}
+
+@media(max-width:480px) {
+    .w3l-login-form {
+    margin: 0 3vw;
+}
+    section {
+    margin: 0 3vw;
+}
+    h1 {
+        font-size: 38px;
+    }
+    .wh1 {
+        font-size: 38px;
+    }
+    button {
+        margin-left: 25%;
+    }
+    p.copyright-agileinfo {
+        line-height: 1.8em;
+    }
+}
+
+@media(max-width:414px) {
+    h1 {
+        font-size: 34px;
+    }
+    .wh1 {
+        font-size: 34px;
+    }
+}
+
+@media(max-width:384px) {
+    h1 {
+        font-size: 30px;
+    }
+    .wh1{
+        font-size: 30px;
+    }
+    button {
+        margin-left: 20%;
+    }
+}
+
+@media(max-width:320px) {
+    h1 {
+        font-size: 25px;
+    }
+    .wh1 {
+        font-size: 25px;
+    }
+    button {
+        margin-left: 15%;
+    }
+    .forgot p {
+        text-align: left;
+    }
+    .forgot {
+        display: block;
+    }
+}
+
+/*-- /responsive design --*/
