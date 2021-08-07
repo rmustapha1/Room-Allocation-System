@@ -1,0 +1,22 @@
+@media print {
+   * {
+      display: none;
+
+   }
+   #allocated_rooms {
+      display: block;
+   }
+   #allocated_rooms .fa{
+      font-size: 25px;
+      color: red;
+   }
+   table {
+       font-size: 80%;
+   }
+   table, th, td{
+      border-collapse: collapse;
+      border: 1px solid black;
+      width: 100%;
+      text-align: right;
+   }
+}
