@@ -2,10 +2,10 @@
 
 error_reporting(0);
 
-$key ="sS4WwBPm47oTTXXB7c02kNOVm";
-$to ="0207728823";
-$msg ="Payment received for GHS 1000.00 from Mustapha Rafick Current Balance:GHS 1000.06.Available Balance:GHS 1000.06.Reference:1111.Transaction ID:1234576343.TRANSACTION FEE:0.00.                  From:MTNMobileMoney.";
-$sender_id ="HMS-TaTU";//11 characters maximum
+$key ="API_KEY";
+$to ="RECEIVER_NUMBER";
+$msg ="YOUR_MESSAGE_HERE";
+$sender_id ="YOUR_SENDER_ID";//11 characters maximum
 
 //encode the message
 $msg = urlencode($msg);
