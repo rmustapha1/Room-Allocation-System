@@ -364,10 +364,10 @@ $room_type = $_POST['room_type'];
      				$floor = $row2['Floor'];
 				 error_reporting(0);
 
-				$key ="sS4WwBPm47oTTXXB7c02kNOVm";
+				$key ="YOUR_API";
 				$to ="$number";
 				$msg ="Dear $student_n, your hostel room application has been proccessed successfully. Your Room Number is: $room_no, Room Id is: $room_id, Room Type is: $room_type, and Floor is: $floor. Kindly login to your HMS account for more info.";
-				$sender_id ="HMS-TaTU";//11 characters maximum
+				$sender_id ="YOUR_SENDER_ID";//11 characters maximum
 
 				//encode the message
 				$msg = urlencode($msg);
