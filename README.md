@@ -1,2 +1,3 @@
-# hostel
+# Room Allocation Management
+A web platform that provides students with an online application form to book for a room in hostels. And also enables hostel managers to allocate and manage hostel activities such as room vacation, add rooms, view student details, reply to students complaints, add hostels, mess management, reserve rooms and etc. Allocation and Vacation of rooms on this system is done automatically with just a single click, it sends an auto SMS to students after a successful allocation and vacation. Nevertheless, a messaging platform for students to send complaints to hostel managers.
  
