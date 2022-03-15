@@ -32,10 +32,10 @@
      				$student_n = $row3['Fname'];
 				 error_reporting(0);
 
-				$key ="sS4WwBPm47oTTXXB7c02kNOVm";
+				$key ="YOUR_API";
 				$to ="$number";
 				$msg ="Dear $student_n, as the academic year has ended, your room has obviously been vacated for the year. To apply for the next Academic Year, Click here. ";
-				$sender_id ="HMS-TaTU";//11 characters maximum
+				$sender_id ="YOUR_SENDER_API";//11 characters maximum
 
 				//encode the message
 				$msg = urlencode($msg);
